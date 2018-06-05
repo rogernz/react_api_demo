@@ -34,7 +34,9 @@ class FindUsers extends Component {
                     users={this.props.users}
                     onUserClick={this.props.onUserClick}
                 />
+                <div />
             </div>
+
 
         );
     }
