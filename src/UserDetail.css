@@ -1,0 +1,42 @@
+.profile-card.mdl-card {
+    width: 100%;
+    max-width: 550px;
+  }
+  .profile-card > .mdl-card__title {
+    padding: 1em;
+    background-color: #37474F;
+    min-height: 128px;
+
+    
+  }
+  .avatar {
+    border-radius: 50%;
+    height: auto;
+    padding: 10px;
+    max-width: 128px;
+    transition: all 150ms ease-in-out;
+    margin-bottom: -63px;
+    margin-right: 25px;
+
+  }
+  .mdl-card__title-text{
+    color:#CFD8DC;
+  }
+  .profile-location{
+    min-height: 30px;
+    margin-bottom: 24px;
+    margin-left: 173px;
+    color:#37474F;
+  }
+  .profile-details{
+    list-style-type: none;
+      margin-bottom: 8px;
+      font-weight:800;
+  }
+  .profile-details_li {
+        display: inline-block;
+        width: 33.33333%;
+        text-align: center;
+        text-transform: uppercase;
+      }
+  
