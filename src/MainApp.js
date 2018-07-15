@@ -3,7 +3,7 @@ import api from './github_api';
 
 import FindUsers from './FindUsers'
 import UserDetail from './UserDetail'
-import Background from './Background'
+
 import './MainApp.css'
 class App extends Component {
     constructor() {
@@ -72,7 +72,7 @@ class App extends Component {
                     />
                 </div>
 
-                <Background />
+
 
             </div>
 
